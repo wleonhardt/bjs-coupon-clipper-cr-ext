@@ -1,0 +1,120 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Chrome Web Store Developer Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - generic:
+          - generic:
+            - generic:
+              - link "Skip to main content"
+        - generic [ref=e18]:
+          - generic [ref=e19]: "Publisher:"
+          - listbox "Switch Publisher Account Menu" [ref=e20] [cursor=pointer]:
+            - option "leonhardt.william@gmail.com" [selected] [ref=e21]
+      - generic [ref=e23]:
+        - button "Google apps" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - 'button "Google Account: William (leonhardt.william@gmail.com)" [ref=e33] [cursor=pointer]':
+          - img [ref=e35]
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - navigation "Primary menu"
+      - main [ref=e39]:
+        - generic "BJ's Auto Coupon Clipper" [ref=e42]:
+          - generic [ref=e43]:
+            - heading "BJ's Auto Coupon Clipper" [level=1] [ref=e44]
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Status: Draft"
+              - generic [ref=e47]: "ID: lapbcfkdpjlpcljcencegjkmkehejmgd"
+        - generic [ref=e49]:
+          - navigation "Item menu" [ref=e51]:
+            - region "Build" [ref=e52]:
+              - heading "Build" [level=2] [ref=e53]
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "Status" [ref=e56] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/status
+                - listitem [ref=e57]:
+                  - link "Package" [ref=e58] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/package
+                - listitem [ref=e59]:
+                  - link "Store listing" [ref=e60] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/listing
+                - listitem [ref=e61]:
+                  - link "Privacy" [ref=e62] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/privacy
+                - listitem [ref=e63]:
+                  - link "Distribution" [ref=e64] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/distribution
+            - region "Access" [ref=e65]:
+              - heading "Access" [level=2] [ref=e66]
+              - list [ref=e67]:
+                - listitem [ref=e68]:
+                  - link "Test instructions" [ref=e69] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/testcredentials
+            - region "Analytics" [ref=e70]:
+              - heading "Analytics" [level=2] [ref=e71]
+              - list [ref=e72]:
+                - listitem [ref=e73]:
+                  - link "Installs & uninstalls" [ref=e74] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/installs
+                - listitem [ref=e75]:
+                  - link "Impressions" [ref=e76] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/impressions
+                - listitem [ref=e77]:
+                  - link "Users" [ref=e78] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/users
+                - listitem [ref=e79]:
+                  - link "Ratings" [ref=e80] [cursor=pointer]:
+                    - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/ratings
+          - generic [ref=e81]:
+            - heading "Status" [level=2] [ref=e82]
+            - generic [ref=e83]:
+              - tablist [ref=e84]:
+                - generic [ref=e87]:
+                  - tab "Draft" [selected] [ref=e88] [cursor=pointer]:
+                    - generic:
+                      - generic: Draft
+                  - tab "Published" [ref=e90] [cursor=pointer]:
+                    - generic:
+                      - generic: Published
+              - tabpanel "Draft" [ref=e92]:
+                - generic [ref=e94]:
+                  - img [ref=e96]
+                  - generic [ref=e99]: This draft is unpublished.
+    - contentinfo [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e105]:
+          - heading "Useful Resources" [level=2] [ref=e106]
+          - list "Useful Resources" [ref=e107]:
+            - listitem [ref=e108]:
+              - link "Developer Guide" [ref=e109] [cursor=pointer]:
+                - /url: https://developer.chrome.com/webstore?hl=en
+        - generic [ref=e110]:
+          - heading "Useful Tools" [level=2] [ref=e111]
+          - list "Useful Tools" [ref=e112]:
+            - listitem [ref=e113]:
+              - link "Google Analytics" [ref=e114] [cursor=pointer]:
+                - /url: https://www.google.com/analytics/web?hl=en
+        - generic [ref=e115]:
+          - heading "Need Help?" [level=2] [ref=e116]
+          - list "Need Help?" [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Contact Us" [ref=e119] [cursor=pointer]:
+                - /url: https://support.google.com/chrome_webstore/contact/one_stop_support?hl=en
+            - listitem [ref=e120]:
+              - link "Give Feedback" [ref=e121] [cursor=pointer]:
+                - /url: https://chrome.google.com/webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/status
+      - generic [ref=e122]:
+        - generic [ref=e123]: © 2026 Google
+        - text: "-"
+        - link "Developer Agreement" [ref=e124] [cursor=pointer]:
+          - /url: https://developer.chrome.com/webstore/terms?hl=en
+        - text: "-"
+        - link "Google Privacy Policy" [ref=e125] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/privacy.html

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BJ's Auto Coupon Clipper Store Assets</title>
+  <style>
+    :root {
+      --red: #c8102e;
+      --red-dark: #8f1024;
+      --ink: #111216;
+      --muted: #5f6670;
+      --line: #e8eaee;
+      --paper: #fff;
+      --wash: #f6f5f3;
+      --teal: #0f766e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--wash);
+    }
+
+    .screenshot,
+    .promo {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 14% 12%, rgba(255, 255, 255, 0.98), rgba(246, 245, 243, 0.9) 34%, rgba(246, 245, 243, 1) 70%),
+        linear-gradient(135deg, rgba(200, 16, 46, 0.08), rgba(15, 118, 110, 0.07));
+    }
+
+    .screenshot {
+      width: 1280px;
+      height: 800px;
+      padding: 72px 84px;
+    }
+
+    .promo {
+      width: 440px;
+      height: 280px;
+      padding: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .icon {
+      display: grid;
+      place-items: center;
+      border-radius: 22px;
+      background: var(--red);
+      color: #fff;
+      font-weight: 900;
+      box-shadow: 0 18px 34px rgba(200, 16, 46, 0.24);
+    }
+
+    .screenshot .icon {
+      width: 80px;
+      height: 80px;
+      font-size: 28px;
+    }
+
+    .promo .icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      font-size: 18px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 76px;
+      align-items: center;
+      height: 100%;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    .screenshot h1 {
+      max-width: 660px;
+      margin-top: 42px;
+      font-size: 68px;
+      line-height: 0.96;
+      letter-spacing: 0;
+    }
+
+    .screenshot .lead {
+      max-width: 590px;
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 25px;
+      line-height: 1.32;
+    }
+
+    .feature-row {
+      display: flex;
+      gap: 14px;
+      margin-top: 38px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      padding: 13px 16px;
+      border: 1px solid rgba(17, 18, 22, 0.1);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+      color: #20242a;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .browser {
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 28px 70px rgba(17, 18, 22, 0.18);
+      border: 1px solid rgba(17, 18, 22, 0.12);
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 42px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 16px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfbfc;
+    }
+
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: #d0d4db;
+    }
+
+    .url {
+      margin-left: 12px;
+      height: 22px;
+      flex: 1;
+      border-radius: 999px;
+      background: #eef0f3;
+    }
+
+    .page {
+      padding: 24px;
+      background: #f7f7f8;
+    }
+
+    .coupon-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .coupon {
+      min-height: 112px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 14px;
+      display: grid;
+      align-content: space-between;
+    }
+
+    .coupon strong {
+      font-size: 18px;
+    }
+
+    .coupon span {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      border-radius: 6px;
+      background: var(--red);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .popup-card {
+      width: 252px;
+      margin: -112px 34px 0 auto;
+      position: relative;
+      z-index: 2;
+      padding: 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: #fff;
+      box-shadow: 0 22px 48px rgba(17, 18, 22, 0.22);
+      display: grid;
+      gap: 12px;
+    }
+
+    .popup-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .pill {
+      color: var(--red);
+      background: rgba(200, 16, 46, 0.14);
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 11px;
+      text-transform: none;
+    }
+
+    .button {
+      display: grid;
+      place-items: center;
+      height: 42px;
+      border-radius: 12px;
+      color: #fff;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--red), #e11438);
+      box-shadow: 0 8px 18px rgba(200, 16, 46, 0.25);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .promo .brand {
+      gap: 12px;
+      font-size: 20px;
+      line-height: 1.06;
+    }
+
+    .promo h2 {
+      margin-top: 28px;
+      font-size: 34px;
+      line-height: 0.98;
+      letter-spacing: 0;
+      max-width: 300px;
+    }
+
+    .promo p {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.26;
+      max-width: 310px;
+    }
+
+    .promo .mini {
+      position: absolute;
+      right: 24px;
+      bottom: 22px;
+      width: 120px;
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+      box-shadow: 0 16px 34px rgba(17, 18, 22, 0.18);
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 7px;
+    }
+
+    .mini-line {
+      height: 8px;
+      border-radius: 999px;
+      background: #e8ebef;
+    }
+
+    .mini-button {
+      height: 24px;
+      border-radius: 7px;
+      background: var(--red);
+    }
+  </style>
+</head>
+<body>
+  <section class="screenshot" id="screenshot">
+    <div class="layout">
+      <div>
+        <div class="brand">
+          <div class="icon">BJ</div>
+          <div>BJ's Auto Coupon Clipper</div>
+        </div>
+        <h1>Clip every BJ's coupon with one click.</h1>
+        <p class="lead">Open the coupons page, press Start, and let the extension scroll, click, refresh, and finish the clipping run.</p>
+        <div class="feature-row">
+          <div class="feature">Start / Cancel</div>
+          <div class="feature">Auto-scroll</div>
+          <div class="feature">No tracking</div>
+        </div>
+      </div>
+      <div>
+        <div class="browser">
+          <div class="bar">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="url"></div>
+          </div>
+          <div class="page">
+            <div class="coupon-grid">
+              <div class="coupon"><strong>$5 off</strong><span>Clip to card</span></div>
+              <div class="coupon"><strong>20% off</strong><span>Clip to card</span></div>
+              <div class="coupon"><strong>$3 off</strong><span>Clip to card</span></div>
+              <div class="coupon"><strong>Buy 1 get 1</strong><span>Clip to card</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="popup-card">
+          <div class="popup-head">
+            <div>BJ's Coupon Clipper</div>
+            <div class="pill">Running</div>
+          </div>
+          <div class="button">Cancel</div>
+          <div class="meta">Clipped: 42</div>
+          <div class="meta">Scrolling for more coupons...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo" id="promo">
+    <div class="brand">
+      <div class="icon">BJ</div>
+      <div>BJ's Auto<br>Coupon Clipper</div>
+    </div>
+    <h2>Never miss a BJ's deal.</h2>
+    <p>One click clips every available coupon.</p>
+    <div class="mini">
+      <div class="mini-line"></div>
+      <div class="mini-button"></div>
+      <div class="mini-line"></div>
+      <div class="mini-line"></div>
+    </div>
+  </section>
+</body>
+</html>

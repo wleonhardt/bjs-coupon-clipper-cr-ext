@@ -1,0 +1,318 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e585] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Chrome Web Store Developer Dashboard" [ref=e586] [cursor=pointer]:
+            - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - generic:
+            - generic:
+              - generic:
+                - link "Skip to main content"
+          - generic [ref=e18]:
+            - generic [ref=e19]: "Publisher:"
+            - listbox "Switch Publisher Account Menu" [ref=e587] [cursor=pointer]:
+              - option "leonhardt.william@gmail.com" [selected] [ref=e588]
+        - generic [ref=e23]:
+          - button "Google apps" [ref=e589] [cursor=pointer]:
+            - img [ref=e28]
+          - 'button "Google Account: William (leonhardt.william@gmail.com)" [ref=e590] [cursor=pointer]':
+            - img [ref=e35]
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - navigation "Primary menu" [ref=e591]:
+          - dialog "navigational drawer" [ref=e592]:
+            - menu [ref=e43]:
+              - generic [ref=e45]:
+                - generic [ref=e46]:
+                  - generic [ref=e47]: Publisher
+                  - menuitem "Items" [ref=e593] [cursor=pointer]:
+                    - generic [ref=e49]:
+                      - img [ref=e50]
+                      - text: Items
+                  - menuitem "Settings" [ref=e594] [cursor=pointer]:
+                    - generic [ref=e54]:
+                      - img [ref=e55]
+                      - text: Settings
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Account
+                  - menuitem "Profile" [ref=e595] [cursor=pointer]:
+                    - generic [ref=e61]:
+                      - img [ref=e62]
+                      - text: Profile
+                  - menuitem "Notifications" [ref=e596] [cursor=pointer]:
+                    - generic [ref=e66]:
+                      - img [ref=e67]
+                      - text: Notifications
+        - main [ref=e70]:
+          - heading "Alerts" [level=1] [ref=e597]
+          - generic "Account" [ref=e598]:
+            - heading "Account" [level=2] [ref=e599]
+          - article [ref=e77]:
+            - region "Profile" [ref=e600]:
+              - heading "Profile" [level=3] [ref=e601]
+              - generic [ref=e81]:
+                - generic [ref=e83]:
+                  - generic [ref=e86]:
+                    - generic [ref=e87]:
+                      - generic:
+                        - generic:
+                          - generic: Publisher display name*
+                      - textbox "Publisher display name*" [ref=e602]:
+                        - /placeholder: Publisher display name
+                        - text: leonhardt.william
+                    - generic [ref=e89]:
+                      - paragraph
+                  - generic [ref=e91]: The publisher display name will appear to users under the name of your application
+                - generic [ref=e94]:
+                  - paragraph [ref=e95]:
+                    - strong [ref=e96]: Publisher ID
+                  - paragraph [ref=e97]: 92f83a30-108c-4693-a17b-055a5d14846c
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - paragraph [ref=e102]:
+                      - strong [ref=e103]: Contact email address
+                    - paragraph [ref=e104]: leonhardt.william@gmail.comUnverified
+                    - button "Verify email" [active] [ref=e603]:
+                      - generic [ref=e109]: Verify email
+                  - generic [ref=e111]:
+                    - text: This address will be publicly displayed in connection with your items.
+                    - link "Learn more in the developer agreement" [ref=e604] [cursor=pointer]:
+                      - /url: https://developer.chrome.com/webstore/terms
+            - region "Trader declaration" [ref=e605]:
+              - heading "Trader declaration" [level=3] [ref=e606]
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - text: Declare if your publisher account is considered a trader or non-trader with respect to European Economic Area (EEA) consumer protection laws.
+                    - link "Learn more about why we ask this" [ref=e607] [cursor=pointer]:
+                      - /url: https://developer.chrome.com/docs/webstore/trader-disclosure/
+                  - listbox "Select a merchant type" [ref=e608]:
+                    - option "This is a trader account" [ref=e609] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - radio
+                      - generic:
+                        - generic: This is a trader account
+                    - option "This is a non-trader account" [selected] [ref=e610] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - radio [checked]
+                      - generic:
+                        - generic: This is a non-trader account
+                - generic [ref=e129]:
+                  - text: "Trader: Acting for professional purposes (i.e. for purposes relating to your trade, business, craft or profession) in relation to contracts made on this marketplace"
+                  - text: "Non-trader: Acting for purposes which are outside your trade, business, craft or profession in relation to contracts made on this marketplace"
+            - region "Address" [ref=e611]:
+              - heading "Address" [level=3] [ref=e612]
+              - generic [ref=e134]:
+                - paragraph [ref=e135]:
+                  - text: Provide a current, valid postal address that accurately reflects where you are located. Please note that this is how your address will appear on the item listing page for your extensions.
+                  - link "Learn more about how we use this information" [ref=e613] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/webstore/terms
+                - button "Enter address" [ref=e614]:
+                  - generic [ref=e142]: Enter address
+            - region "Management" [ref=e615]:
+              - heading "Management" [level=3] [ref=e616]
+              - generic [ref=e146]:
+                - generic [ref=e148]:
+                  - generic [ref=e151]:
+                    - generic [ref=e152]:
+                      - generic:
+                        - generic:
+                          - generic: Trusted tester accounts
+                      - textbox "Trusted tester accounts" [ref=e617]:
+                        - /placeholder: ""
+                    - paragraph [ref=e156]: Enter email addresses separated by spaces or commas
+                  - generic [ref=e158]:
+                    - text: These test accounts allow you to make your application visible only to specific users for testing.
+                    - link "See our publishing guidelines" [ref=e618] [cursor=pointer]:
+                      - /url: https://developer.chrome.com/docs/webstore/cws-dashboard-distribution/#private-visibility-trusted-testers
+                    - text: for more details
+                - generic [ref=e161]:
+                  - button "Delete publisher account" [ref=e619]:
+                    - generic [ref=e168]: Delete publisher account
+                  - generic [ref=e170]:
+                    - text: Only an admin of the publisher can
+                    - link "delete the account" [ref=e620] [cursor=pointer]:
+                      - /url: https://developer.chrome.com/webstore/account-deletion
+            - region "Service account" [ref=e621]:
+              - heading "Service account" [level=3] [ref=e622]
+              - generic [ref=e178]:
+                - generic [ref=e180]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Service account
+                      - textbox "Service account" [ref=e623]:
+                        - /placeholder: ""
+                    - paragraph [ref=e190]: Enter an email address
+                  - generic [ref=e193]:
+                    - button "Add a service account" [disabled]:
+                      - generic: Add a service account
+                - generic [ref=e195]:
+                  - text: Service account will be able to access all items via public APIs.
+                  - link "Learn more about service account" [ref=e624] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/docs/webstore/service-accounts
+                    - text: Learn more
+            - region "Organization publishing" [ref=e625]:
+              - heading "Organization publishing" [level=3] [ref=e626]
+              - generic [ref=e202]:
+                - generic [ref=e204]:
+                  - paragraph [ref=e205]: Securely distribute your extension to specific enterprise customers. Generate an approval link to get started.
+                  - button "Generate approval link" [ref=e627]:
+                    - generic [ref=e210]: Generate approval link
+                - generic [ref=e212]:
+                  - text: Use the approval link to request publishing access from your customers. Once approved, you'll be able to publish privately to their domain. You can use the same link for all customers.
+                  - link "Learn more about organization publishing" [ref=e628] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/docs/webstore/cws-enterprise#domain-publishing
+                    - text: Learn more
+            - region "Members" [ref=e629]:
+              - heading "Members" [level=3] [ref=e630]
+              - generic [ref=e219]:
+                - generic [ref=e221]:
+                  - button "Invite member" [ref=e631]:
+                    - img [ref=e229]
+                    - generic [ref=e231]: Invite member
+                  - table "Member developers in the publisher." [ref=e632]:
+                    - rowgroup [ref=e235]:
+                      - row "Name Sort by Name Join date Sort by Join date Role Sort by Role" [ref=e633]:
+                        - columnheader "Name Sort by Name" [ref=e634] [cursor=pointer]:
+                          - generic [ref=e238]:
+                            - generic [ref=e239]: Name
+                            - button "Sort by Name" [ref=e635]:
+                              - generic [ref=e241]: arrow_upward
+                        - columnheader "Join date Sort by Join date" [ref=e636] [cursor=pointer]:
+                          - generic [ref=e244]:
+                            - generic [ref=e245]: Join date
+                            - button "Sort by Join date" [ref=e637]:
+                              - generic [ref=e247]: arrow_upward
+                        - columnheader "Role Sort by Role" [ref=e638] [cursor=pointer]:
+                          - generic [ref=e250]:
+                            - generic [ref=e251]: Role
+                            - button "Sort by Role" [ref=e639]:
+                              - generic [ref=e253]: arrow_upward
+                    - rowgroup [ref=e255]:
+                      - row "William leonhardt.william@gmail.com May 21, 2026 Admin Learn more about why you cannot change your own role or leave the publisher" [ref=e640]:
+                        - cell "William leonhardt.william@gmail.com" [ref=e641]:
+                          - generic [ref=e259]:
+                            - generic [ref=e260]: William
+                            - generic [ref=e261]: leonhardt.william@gmail.com
+                        - cell "May 21, 2026" [ref=e642]
+                        - cell "Admin Learn more about why you cannot change your own role or leave the publisher" [ref=e643]:
+                          - generic [ref=e264]:
+                            - text: Admin
+                            - button "Learn more about why you cannot change your own role or leave the publisher" [ref=e644] [cursor=pointer]:
+                              - img [ref=e268]
+                - generic [ref=e271]:
+                  - text: Invite and manage additional members to your publisher. Pick a suitable role based on the actions the member needs to take on your publisher.
+                  - list [ref=e272]:
+                    - listitem [ref=e273]:
+                      - strong [ref=e274]: "Admin:"
+                      - text: Full access and permission to the publisher. Only role that can add, change or remove members.
+                    - listitem [ref=e275]:
+                      - strong [ref=e276]: "Editor:"
+                      - text: Full access to all items and publisher-level settings.
+                    - listitem [ref=e277]:
+                      - strong [ref=e278]: "Item manager:"
+                      - text: Full access to all items, including creating, updating and removing items.
+                    - listitem [ref=e279]:
+                      - strong [ref=e280]: "Viewer:"
+                      - text: Read only access to all items and settings.
+                  - link "Learn more" [ref=e645] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/docs/webstore/share-ownership
+            - region "Item support" [ref=e646]:
+              - heading "Item support" [level=3] [ref=e647]
+              - generic [ref=e287]:
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Visibility
+                  - switch "Visibility" [ref=e648] [cursor=pointer]:
+                    - generic [ref=e296]:
+                      - img [ref=e297]
+                      - img [ref=e299]
+                - generic [ref=e303]:
+                  - text: The item support toggle enablement will affect all items under this account.
+                  - link "Learn more about item support" [ref=e649] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/docs/webstore/support-users
+                    - text: Learn more
+            - region "Notifications" [ref=e650]:
+              - heading "Notifications" [level=3] [ref=e651]
+              - generic [ref=e308]:
+                - generic [ref=e309]: Notifications for leonhardt.william@gmail.com
+                - generic [ref=e313]:
+                  - generic [ref=e316]: Email
+                  - generic [ref=e318]: Web
+                - generic [ref=e320]:
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: Item review completed
+                    - switch "Item review completed Email" [ref=e652] [cursor=pointer]:
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - img [ref=e336]
+                    - switch "Item review completed Web" [ref=e653] [cursor=pointer]:
+                      - generic [ref=e345]:
+                        - img [ref=e346]
+                        - img [ref=e348]
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: Item support issue received
+                    - switch "Item support issue received Email" [ref=e654] [cursor=pointer]:
+                      - generic [ref=e364]:
+                        - img [ref=e365]
+                        - img [ref=e367]
+                    - switch "Item support issue received Web" [ref=e655] [cursor=pointer]:
+                      - generic [ref=e376]:
+                        - img [ref=e377]
+                        - img [ref=e379]
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: Item staged
+                    - switch "Item staged Email" [ref=e656] [cursor=pointer]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - img [ref=e398]
+                  - generic [ref=e407]:
+                    - generic [ref=e408]: Item published
+                    - switch "Item published Email" [ref=e657] [cursor=pointer]:
+                      - generic [ref=e415]:
+                        - img [ref=e416]
+                        - img [ref=e418]
+            - region "Save changes" [ref=e658]:
+              - heading "Save changes" [level=3] [ref=e659]:
+                - button "Save changes" [ref=e660]:
+                  - generic [ref=e430]: Save changes
+      - contentinfo [ref=e432]:
+        - generic [ref=e433]:
+          - generic [ref=e437]:
+            - heading "Useful Resources" [level=2] [ref=e661]
+            - list "Useful Resources" [ref=e662]:
+              - listitem [ref=e440]:
+                - link "Developer Guide" [ref=e663] [cursor=pointer]:
+                  - /url: https://developer.chrome.com/webstore?hl=en
+          - generic [ref=e442]:
+            - heading "Useful Tools" [level=2] [ref=e664]
+            - list "Useful Tools" [ref=e665]:
+              - listitem [ref=e445]:
+                - link "Google Analytics" [ref=e666] [cursor=pointer]:
+                  - /url: https://www.google.com/analytics/web?hl=en
+          - generic [ref=e447]:
+            - heading "Need Help?" [level=2] [ref=e667]
+            - list "Need Help?" [ref=e668]:
+              - listitem [ref=e450]:
+                - link "Contact Us" [ref=e669] [cursor=pointer]:
+                  - /url: https://support.google.com/chrome_webstore/contact/one_stop_support?hl=en
+              - listitem [ref=e452]:
+                - link "Give Feedback" [ref=e670] [cursor=pointer]:
+                  - /url: https://chrome.google.com/webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/settings
+        - generic [ref=e454]:
+          - generic [ref=e455]: © 2026 Google
+          - text: "-"
+          - link "Developer Agreement" [ref=e671] [cursor=pointer]:
+            - /url: https://developer.chrome.com/webstore/terms?hl=en
+          - text: "-"
+          - link "Google Privacy Policy" [ref=e672] [cursor=pointer]:
+            - /url: https://www.google.com/intl/en/privacy.html
+  - generic [ref=e584]: Sending email verification...

@@ -1,0 +1,337 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e362] [cursor=pointer]:
+          - img [ref=e8]
+        - link [ref=e363] [cursor=pointer]:
+          - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c
+          - img [ref=e13]
+      - generic [ref=e18]:
+        - generic [ref=e19]: "Publisher:"
+        - listbox [ref=e364] [cursor=pointer]:
+          - option [selected] [ref=e365]: leonhardt.william@gmail.com
+      - generic [ref=e23]:
+        - button [ref=e366] [cursor=pointer]:
+          - img [ref=e28]
+        - button [ref=e367] [cursor=pointer]:
+          - img [ref=e35]
+  - generic [ref=e37]:
+    - main [ref=e39]:
+      - generic [ref=e368]:
+        - generic [ref=e43]:
+          - heading [level=1] [ref=e369]: BJ's Auto Coupon Clipper
+          - generic [ref=e45]:
+            - generic [ref=e46]: "Status: Draft"
+            - generic [ref=e47]: "ID: lapbcfkdpjlpcljcencegjkmkehejmgd"
+        - generic [ref=e48]:
+          - generic [ref=e50]:
+            - button [disabled]:
+              - generic: Save draft
+          - generic [ref=e55]:
+            - generic [ref=e57]:
+              - button [disabled]:
+                - generic: Submit for review
+            - button [ref=e370] [cursor=pointer]:
+              - generic [ref=e66]: more_vert
+      - generic [ref=e68]:
+        - navigation [ref=e371]:
+          - region [ref=e372]:
+            - heading [level=2] [ref=e373]: Build
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link [ref=e374] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/status
+                  - text: Status
+              - listitem [ref=e76]:
+                - link [ref=e375] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/package
+                  - text: Package
+              - listitem [ref=e78]:
+                - link [ref=e376] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/listing
+                  - text: Store listing
+              - listitem [ref=e80]:
+                - link [ref=e377] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/privacy
+                  - text: Privacy
+              - listitem [ref=e82]:
+                - link [ref=e378] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit/distribution
+                  - text: Distribution
+          - region [ref=e379]:
+            - heading [level=2] [ref=e380]: Access
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - link [ref=e381] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/testcredentials
+                  - text: Test instructions
+          - region [ref=e382]:
+            - heading [level=2] [ref=e383]: Analytics
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - link [ref=e384] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/installs
+                  - text: Installs & uninstalls
+              - listitem [ref=e94]:
+                - link [ref=e385] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/impressions
+                  - text: Impressions
+              - listitem [ref=e96]:
+                - link [ref=e386] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/analytics/users
+                  - text: Users
+              - listitem [ref=e98]:
+                - link [ref=e387] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/ratings
+                  - text: Ratings
+        - article [ref=e388]:
+          - heading [level=2] [ref=e389]: Store listing
+          - generic [ref=e103]:
+            - heading [level=1] [ref=e390]: Alerts
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - img [ref=e391]:
+                  - img [ref=e110]
+                - paragraph [ref=e114]:
+                  - text: Check out our tips for creating a great listing page.
+                  - link [ref=e392] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/docs/webstore/best-listing
+                    - text: Learn more
+              - button [ref=e393] [cursor=pointer]:
+                - generic [ref=e117]: clear
+          - region [ref=e394]:
+            - generic [ref=e119]:
+              - heading [level=3] [ref=e395]: Product details
+              - paragraph [ref=e121]: For all languages
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: Title from package
+                - paragraph [ref=e125]: BJ's Auto Coupon Clipper
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: Summary from package
+                - paragraph [ref=e128]: Automatically clips coupons on BJ's website.
+              - generic [ref=e130]:
+                - generic [ref=e134]:
+                  - generic:
+                    - generic:
+                      - generic: Description*
+                  - generic [ref=e135]:
+                    - textbox [ref=e396]: "Tired of manually clicking every coupon on BJ's Wholesale Club? BJ's Auto Coupon Clipper does it for you automatically. Visit the BJ's coupons page, press Start, and the extension scrolls through the page, clips every available coupon, and recovers from common loading hiccups along the way. Clean interface. No clutter. No tracking. Features: - One-click control with a Start/Cancel button - Automatically scrolls and clips all available coupons - Recovers from errors like \"Please refresh the page\" - Real-time status updates: Idle, Ready, Clipping, Complete - Secure and lightweight: no trackers, no third-party code - Styled to feel native to BJ's, without using BJ's branding How to use: 1. Go to the BJ's coupons page. 2. Click the extension icon in your Chrome toolbar. 3. Press Start to begin clipping. 4. Press Cancel to stop at any time. The extension will scroll, clip, and refresh the page as needed. No extra setup required. Built with native WebExtension APIs."
+                    - generic [ref=e137]:
+                      - text: 982/16,000
+                      - generic [ref=e138]: 982 of 16000 characters entered
+                - generic [ref=e142]: Focus on explaining what the item does and why users should install it
+              - combobox [ref=e397] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Category*
+                - generic:
+                  - generic: Shopping
+                - generic:
+                  - img
+              - generic [ref=e152]:
+                - combobox [ref=e398] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic: Language*
+                  - generic:
+                    - generic: English (United States)
+                  - generic:
+                    - img
+                - generic [ref=e159]:
+                  - text: Specifying your item’s language will help users find it. If you support multiple languages, then you should internationalize your item.
+                  - link [ref=e399] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/webstore/i18n
+                    - text: Learn more
+          - region [ref=e400]:
+            - heading [level=3] [ref=e401]: Graphic assets
+            - generic [ref=e164]:
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - paragraph [ref=e168]: Store icon *
+                  - generic [ref=e169]:
+                    - paragraph [ref=e170]: 128x128 pixels
+                    - paragraph [ref=e171]:
+                      - text: Please ensure icon follows
+                      - link [ref=e402] [cursor=pointer]:
+                        - /url: https://developer.chrome.com/webstore/images#icons
+                        - text: image guidelines
+                - generic [ref=e177]:
+                  - button [ref=e403] [cursor=pointer]:
+                    - img [ref=e182]
+                  - img [ref=e404]
+              - generic [ref=e187]:
+                - heading [level=4] [ref=e405]: Global assets
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic:
+                      - generic:
+                        - generic: Global promo video
+                    - textbox [ref=e406]:
+                      - /placeholder: Youtube URL
+                  - paragraph [ref=e197]: "Enter a YouTube video URL. Example: https://www.youtube.com/watch?v=1234567890A"
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - paragraph [ref=e201]: Screenshots *
+                    - generic [ref=e202]:
+                      - paragraph [ref=e203]: Up to a maximum of 5
+                      - paragraph [ref=e204]: 1280x800 or 640x400
+                      - paragraph [ref=e205]: JPEG or 24-bit PNG (no alpha)
+                      - paragraph [ref=e206]: At least one is required
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - button [ref=e407] [cursor=pointer]:
+                        - img [ref=e216]
+                      - img [ref=e408]
+                    - button [ref=e409] [cursor=pointer]:
+                      - img [ref=e222]
+                      - paragraph [ref=e225]: Drop image here
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - paragraph [ref=e230]: Small promo tile
+                    - generic [ref=e231]:
+                      - paragraph [ref=e232]: 440x280 Canvas
+                      - paragraph [ref=e233]: JPEG or 24-bit PNG (no alpha)
+                  - generic [ref=e238]:
+                    - button [ref=e410] [cursor=pointer]:
+                      - img [ref=e243]
+                    - img [ref=e411]
+                - generic [ref=e248]:
+                  - generic [ref=e249]:
+                    - paragraph [ref=e250]: Marquee promo tile
+                    - generic [ref=e251]:
+                      - paragraph [ref=e252]: 1400x560 Canvas
+                      - paragraph [ref=e253]: JPEG or 24-bit PNG (no alpha)
+                  - button [ref=e412] [cursor=pointer]:
+                    - img [ref=e260]
+                    - paragraph [ref=e263]: Drop image here
+          - region [ref=e413]:
+            - heading [level=3] [ref=e414]: Additional fields
+            - generic [ref=e268]:
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - combobox [ref=e415] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic: Official URL
+                    - generic:
+                      - generic: None
+                    - generic:
+                      - img
+                  - generic [ref=e276]:
+                    - text: Or
+                    - link [ref=e416] [cursor=pointer]:
+                      - /url: https://www.google.com/webmasters/tools
+                      - text: Add a new site
+                - generic [ref=e279]: If your item is associated with a website that you own, select that website from the list. You can register as the owner for a site using Google Search Console.
+              - generic [ref=e284]:
+                - generic [ref=e285]:
+                  - generic:
+                    - generic:
+                      - generic: Homepage URL
+                  - textbox [ref=e417]:
+                    - /placeholder: Homepage URL
+                    - text: https://www.bjs.com/myCoupons
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: Link to website for your item
+                  - generic [ref=e289]:
+                    - text: 29/2,048
+                    - generic [ref=e290]: 29 of 2048 characters entered
+              - generic [ref=e294]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - generic:
+                      - generic:
+                        - generic: Support URL
+                    - textbox [ref=e418]:
+                      - /placeholder: Support URL
+                  - generic [ref=e301]:
+                    - text: 0/2,048
+                    - generic [ref=e302]: 0 of 2048 characters entered
+                - generic [ref=e305]: Providing the URLs for description and support pages can improve your users’ experience and help make this item’s ratings and comments more meaningful.
+              - generic [ref=e307]:
+                - generic [ref=e309]:
+                  - generic [ref=e310]: Mature content
+                  - switch [ref=e419] [cursor=pointer]:
+                    - generic [ref=e316]:
+                      - img [ref=e317]
+                      - img [ref=e319]
+                - generic [ref=e323]:
+                  - text: Examples of mature content include sexual and suggestive content, strong language, violence, or a focus on the consumption or sale of alcohol, tobacco, or drugs.
+                  - link [ref=e420] [cursor=pointer]:
+                    - /url: https://developer.chrome.com/webstore/rating
+                    - text: Learn more
+          - region [ref=e421]:
+            - heading [level=3] [ref=e422]: Item support
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - text: Visibility.
+                - link [ref=e423] [cursor=pointer]:
+                  - /url: ./webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/settings#item-support
+                  - text: Change visibility here
+              - generic [ref=e334]:
+                - text: Turn your item support on or off on your store listing.
+                - link [ref=e424] [cursor=pointer]:
+                  - /url: https://developer.chrome.com/docs/webstore/support-users
+                  - text: Learn more
+    - contentinfo [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e341]:
+          - heading [level=2] [ref=e425]: Useful Resources
+          - list [ref=e426]:
+            - listitem [ref=e344]:
+              - link [ref=e427] [cursor=pointer]:
+                - /url: https://developer.chrome.com/webstore?hl=en
+                - text: Developer Guide
+        - generic [ref=e346]:
+          - heading [level=2] [ref=e428]: Useful Tools
+          - list [ref=e429]:
+            - listitem [ref=e349]:
+              - link [ref=e430] [cursor=pointer]:
+                - /url: https://www.google.com/analytics/web?hl=en
+                - text: Google Analytics
+        - generic [ref=e351]:
+          - heading [level=2] [ref=e431]: Need Help?
+          - list [ref=e432]:
+            - listitem [ref=e354]:
+              - link [ref=e433] [cursor=pointer]:
+                - /url: https://support.google.com/chrome_webstore/contact/one_stop_support?hl=en
+                - text: Contact Us
+            - listitem [ref=e356]:
+              - link [ref=e434] [cursor=pointer]:
+                - /url: https://chrome.google.com/webstore/devconsole/92f83a30-108c-4693-a17b-055a5d14846c/lapbcfkdpjlpcljcencegjkmkehejmgd/edit
+                - text: Give Feedback
+      - generic [ref=e358]:
+        - generic [ref=e359]: © 2026 Google
+        - text: "-"
+        - link [ref=e435] [cursor=pointer]:
+          - /url: https://developer.chrome.com/webstore/terms?hl=en
+          - text: Developer Agreement
+        - text: "-"
+        - link [ref=e436] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/privacy.html
+          - text: Google Privacy Policy
+  - dialog "Submit \"BJ's Auto Coupon Clipper\" for review?" [ref=e438]:
+    - heading "Submit \"BJ's Auto Coupon Clipper\" for review?" [level=2] [ref=e439]
+    - generic [ref=e441]:
+      - paragraph [ref=e442]:
+        - text: Every extension is
+        - link "reviewed" [active] [ref=e443] [cursor=pointer]:
+          - /url: https://developer.chrome.com/docs/webstore/review-process
+        - text: prior to publication, which can take up to several weeks.
+      - list [ref=e444]:
+        - listitem [ref=e445]: You can significantly decrease review time by using more narrowly scoped permissions.
+        - listitem [ref=e446]: Once it has passed reviews, the extension will be published automatically or it can be staged to be published at a later time.
+      - generic [ref=e447]:
+        - generic [ref=e448] [cursor=pointer]:
+          - checkbox "Publish \"BJ's Auto Coupon Clipper\" automatically after it has passed review" [checked] [ref=e449]
+          - generic:
+            - img
+        - generic [ref=e450]: Publish "BJ's Auto Coupon Clipper" automatically after it has passed review
+    - generic [ref=e451]:
+      - button "Cancel" [ref=e452]:
+        - generic [ref=e455]: Cancel
+      - button "Submit For Review" [ref=e456]:
+        - generic [ref=e459]: Submit For Review

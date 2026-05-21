@@ -1,0 +1,5 @@
+[     233ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.googletagmanager.com/gtag/js?id=G-YLGH7M53LZ:0
+[    1364ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://chrome.google.com/_/scs/cws-boq-static/_/js/k=boq-chrome-webstore.SnapcatUi.en.jr_Mf7K-t54.2018.O/am=7yIAAAAAMAMc/d=1/excm=_b,_tp,statusview/ed=1/dg=0/wt=2/ujg=1/rs=AEP720JpwkrnfUnX-IeVhcTCsHQh1DzcFQ/dti=1/m=_b,_tp:347
+[    1364ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://chrome.google.com/_/scs/cws-boq-static/_/js/k=boq-chrome-webstore.SnapcatUi.en.jr_Mf7K-t54.2018.O/am=7yIAAAAAMAMc/d=1/excm=_b,_tp,statusview/ed=1/dg=0/wt=2/ujg=1/rs=AEP720JpwkrnfUnX-IeVhcTCsHQh1DzcFQ/dti=1/m=_b,_tp:347
+[    1373ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData:0

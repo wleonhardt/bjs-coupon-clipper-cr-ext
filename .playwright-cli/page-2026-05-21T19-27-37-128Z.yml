@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: BJ
+        - generic [ref=e7]: BJ's Auto Coupon Clipper
+      - heading "Clip every BJ's coupon with one click." [level=1] [ref=e8]
+      - paragraph [ref=e9]: Open the coupons page, press Start, and let the extension scroll, click, refresh, and finish the clipping run.
+      - generic [ref=e10]:
+        - generic [ref=e11]: Start / Cancel
+        - generic [ref=e12]: Auto-scroll
+        - generic [ref=e13]: No tracking
+    - generic [ref=e14]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - strong [ref=e24]: $5 off
+          - generic [ref=e25]: Clip to card
+        - generic [ref=e26]:
+          - strong [ref=e27]: 20% off
+          - generic [ref=e28]: Clip to card
+        - generic [ref=e29]:
+          - strong [ref=e30]: $3 off
+          - generic [ref=e31]: Clip to card
+        - generic [ref=e32]:
+          - strong [ref=e33]: Buy 1 get 1
+          - generic [ref=e34]: Clip to card
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: BJ's Coupon Clipper
+          - generic [ref=e38]: Running
+        - generic [ref=e39]: Cancel
+        - generic [ref=e40]: "Clipped: 42"
+        - generic [ref=e41]: Scrolling for more coupons...
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]: BJ
+      - generic [ref=e45]:
+        - text: BJ's Auto
+        - text: Coupon Clipper
+    - heading "Never miss a BJ's deal." [level=2] [ref=e46]
+    - paragraph [ref=e47]: One click clips every available coupon.
